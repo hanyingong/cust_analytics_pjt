@@ -1,1 +1,5 @@
-# cust_analytics_pjt
+# Customer Analytics Project
+
+for #ISSS603: Customer Analytics and Applications (MITB)
+
+#website:
