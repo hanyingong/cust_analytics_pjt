@@ -30,17 +30,17 @@ nav[role="top_navbar"] li a {
   //border-right:3px solid lightgray;
   }
 
-li a:hover:not(.active) {
+nav[role="top_navbar"] li a:hover:not(.active) {
     //background-color: #e6f3ff;
     border-bottom: 3px solid #4da9ff;
   }
 
-.active {
-    padding:1px;
-    text-decoration: underline;
+nav[role="top_navbar"] .active {
+
+    /*text-decoration: underline;*/
     font-weight: bold;
     background-color: #ffd633;
-    border-radius:15px;
+    border-radius:10px;
     display: block;
   }
 
@@ -77,4 +77,48 @@ p{
     font-size: 15;
     margin-bottom: 0;
     font-weight: 300;
+    }
+
+/*secondary bars*/
+
+nav[role="2nd_top_navbar"] {
+  margin-left: 0;
+  }
+nav[role="2nd_top_navbar"] ul {
+  list-style-type: none;
+  margin-left: 5% ;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+    }
+
+nav[role="2nd_top_navbar"] li {
+  float: left;
+  list-style-type: none;
+    }
+
+nav[role="2nd_top_navbar"] li a {
+  display: block;
+  color: darkslategray;     //darkslategrey
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 12;
+  font-weight: 300;
+  /*border-right:3px solid lightgray;*/
+  }
+
+  nav[role="2nd_top_navbar"] li a:hover:not(.active) {
+      //background-color: #e6f3ff;
+      border-bottom: 2px solid #4da9ff;
+    }
+
+  nav[role="2nd_top_navbar"] .active {
+      /*text-decoration: underline;*/
+      border-bottom: 2px solid #ffd633;
+      display: block;
     }
