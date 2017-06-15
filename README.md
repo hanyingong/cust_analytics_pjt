@@ -1,6 +1,6 @@
 # Customer Analytics Project
 
-for #ISSS603: Customer Analytics and Applications (MITB)
+for ISSS603: Customer Analytics and Applications (MITB)
 
 ##### website: https://hanyingong.github.io/cust_analytics_pjt/
 
