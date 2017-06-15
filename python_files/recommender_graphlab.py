@@ -57,7 +57,7 @@ x2 = gl.recommender.util.compare_models(test_s2 , \
     
 train_s2_model_final= gl.recommender.item_similarity_recommender.create \
                 (df_seg2_growable_SFrame, user_id='Card_ID', item_id='pdt_type',\
-                similarity_type='pearson')
+                similarity_type='jaccard')
 
 recs_final  = train_s2_model_final.recommend()
 recs_final.save('dataset\dataset_final_recs2.csv', format='csv')

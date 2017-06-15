@@ -50,5 +50,5 @@ results_final_7 = results_final[results_final['Card_ID'].\
                                        reset_index(drop = True)
                                        
 ## output into csv file for further analysis & visualization in tableau
-df_user_data_7.to_csv('dataset\dataset_final_all_user.csv', format='csv')
-results_final_7.to_csv('dataset\dataset_final_all.csv', format='csv')
+df_user_data_7.to_csv('dataset\dataset_final_all_user.csv', header = True, index= True, sep='\t', encoding='utf-8')
+results_final_7.to_csv('dataset\dataset_final_all.csv', header = True, index= True, sep='\t', encoding='utf-8')
