@@ -4,7 +4,7 @@ for #ISSS603: Customer Analytics and Applications (MITB)
 
 ##### website: https://hanyingong.github.io/cust_analytics_pjt/
 
-This is a customer analytics group project, completed by a team of 5 members, contactable at;
+This is a customer analytics group project, completed by a team of 5 members. We are contactable at;
 
 1. Chan Lun Wesley Fabrice Lab Sane - chanlun.2016@mitb.smu.edu.sg
 2. Ho Li Chin - lichin.ho.2016@mitb.smu.edu.sg
